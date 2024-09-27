@@ -30,6 +30,7 @@ const Projects = () => {
             className="flex flex-col lg:flex-row items-center lg:items-start gap-8"
           >
             
+            {/* Image du projet */}
             <motion.div
               whileInView={{ opacity: 1, scale: 1 }} 
               initial={{ opacity: 0, scale: 0.9 }}  // Un peu moins de zoom au départ
@@ -43,7 +44,7 @@ const Projects = () => {
               />
             </motion.div>
 
-            {/* Texte ajusté */}
+            {/* Texte ajusté sans image */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }} 
               initial={{ opacity: 0, x: 0 }}  
