@@ -6,7 +6,7 @@ export const HERO_CONTENT =
 'Je suis un jeune développeur junior passionné par le monde de la technologie et du développement. Je suis actuellement à lécole Epitech jai acquis des compétences solides et variées en explorant plusieurs technologies au cours de ma formation. Cette expérience ma permis de développer une compréhension approfondie des outils et des langages de programmation actuels. Déterminé à apprendre et à évoluer constamment, je me distingue par ma patience, mon écoute attentive et mon excellent esprit d équipe. Ces qualités me permettent de collaborer efficacement avec mes collègues et de contribuer positivement à tout projet sur lequel je travaille. Je suis prêt à relever de nouveaux défis et à continuer à développer mes compétences pour devenir un développeur accompli.';
 
 
-export const ABOUT_TEXT = 'Actuellement je suis a la rercheche d une alteranaces pour passé en deuxieme année et ainsi valider mon titre Rcnp de niveau 5 '
+export const ABOUT_TEXT = 'Actuellement, je suis à la recherche d une alternance afin de pouvoir intégrer la deuxième année de mon cursus et ainsi valider mon titre RNCP de niveau 5. Cette opportunité me permettrait de continuer à développer mes compétences tout en acquérant une expérience professionnelle concrète et enrichissante, indispensable à lobtention de ce diplôme reconnu. '
 
 
 
