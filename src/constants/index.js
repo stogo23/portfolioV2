@@ -20,7 +20,7 @@ export const EXPERIENCE = [
     },
     {
         annee : "2022 / 2023 ",
-        role: "animateur",
+        role: "Animateur",
         compagnie:"Mairie Marseille",
         description: "Encadrer des groupes d'enfant (entre 3 et 12 ans) Réaliser/ encadrer des animations, activités ludiques et sportives. Superviser les sorties.",
     },
@@ -37,7 +37,7 @@ export const PROJECTS = [
     {
       titre: "My Cinema",
       image: project1,
-      description: "Création d'une interface de recherche de films via une API externe, avec les fonctionnalités suivantes : possibilité d'ajouter, modifier ou supprimer des films d'une liste, le tout réalisé en Symfony, PHPMyAdmin et Tailwind.",
+      description: "Création d'une interface de recherche de films via une API externe, avec les fonctionnalités suivantes : possibilité d'ajouter, modifier ou supprimer des films d'une liste.",
       techno:["SYMFONY", "REACT", "TAILWIND"]
     },
     {
