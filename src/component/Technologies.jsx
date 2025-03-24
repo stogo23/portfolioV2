@@ -13,6 +13,8 @@ import {
   SiCss3,
   SiJavascript,
   SiDocker,
+  SiKotlin,
+  SiSass,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -161,7 +163,23 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4">
         <SiDocker className="text-7xl text-blue-400" />
       </motion.div>
-      
+
+      <motion.div
+         variants={iconVariants(4)}
+         initial="initial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4" >
+      <SiKotlin className="text-7xl text-purple-500" />
+    </motion.div>
+
+    <motion.div
+      variants={iconVariants(3)}
+      initial="initial"
+      animate="animate"
+      className="rounded-2xl border-4 border-neutral-800 p-4">
+      <SiSass className="text-7xl text-pink-500" />
+   </motion.div>
+
       </motion.div>
     </div>
   );
