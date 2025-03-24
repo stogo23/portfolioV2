@@ -12,6 +12,7 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiDocker,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -152,6 +153,15 @@ const Technologies = () => {
         >
           <SiJavascript className="text-7xl text-yellow-500" />
         </motion.div>
+
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+        <SiDocker className="text-7xl text-blue-400" />
+      </motion.div>
+      
       </motion.div>
     </div>
   );
