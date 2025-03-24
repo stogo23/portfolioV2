@@ -15,6 +15,7 @@ import {
   SiDocker,
   SiKotlin,
   SiSass,
+  SiVite,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -178,6 +179,14 @@ const Technologies = () => {
       animate="animate"
       className="rounded-2xl border-4 border-neutral-800 p-4">
       <SiSass className="text-7xl text-pink-500" />
+   </motion.div>
+
+   <motion.div
+     variants={iconVariants(5)}
+     initial="initial"
+     animate="animate"
+     className="rounded-2xl border-4 border-neutral-800 p-4">
+    <SiVite className="text-7xl text-purple-600" />
    </motion.div>
 
       </motion.div>
